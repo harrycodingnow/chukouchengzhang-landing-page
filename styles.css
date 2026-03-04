@@ -554,6 +554,10 @@ body[data-lang="zh"] .footer-links a {
 }
 
 .stats article {
+  min-height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
@@ -569,21 +573,30 @@ body[data-lang="zh"] .footer-links a {
   margin: 8px 0 0;
   color: #52525b;
   font-weight: 600;
+  font-size: 1.02rem;
 }
 
 .stats-featured {
-  border-left: 1px solid var(--line);
-  padding-left: 22px;
-  text-align: left;
+  border-left: 0;
+  padding-left: 0;
+  text-align: center;
 }
 
 .stats-featured h3 {
-  font-size: clamp(1.4rem, 2.5vw, 2rem);
-  letter-spacing: -0.01em;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #52525b;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .stats-featured p {
-  line-height: 1.5;
+  line-height: 1.45;
+  max-width: 34ch;
+  margin-inline: auto;
+  margin-top: 8px;
+  font-weight: 600;
 }
 
 .section {
@@ -964,9 +977,9 @@ body[data-lang="zh"] .footer-links a {
 
   .stats-featured {
     border-left: 0;
-    border-top: 1px solid var(--line);
+    border-top: 0;
     padding-left: 0;
-    padding-top: 14px;
+    padding-top: 0;
     text-align: center;
   }
 
