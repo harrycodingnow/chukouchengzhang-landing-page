@@ -121,7 +121,7 @@ export default function App() {
               <p>{t(lang, "下載", "Downloads")}</p>
             </article>
             <article>
-              <h3>4.3/5</h3>
+              <h3>4.4/5</h3>
               <p>{t(lang, "App 評分", "App Rating")}</p>
             </article>
             <article>
